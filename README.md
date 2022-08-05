@@ -34,3 +34,7 @@ $ git clone https://github.com/NavesEdu/Teste-Postman-Desafio
 6. Clique no botão *Import*
 
 ### Fazendo os testes
+
+### Observação
+
+Tentei fazer um CI mas não funcionou, utilizei o GitHub actions, nunca tive contato com o código pois até agora só vi o conceito na graduação. 
