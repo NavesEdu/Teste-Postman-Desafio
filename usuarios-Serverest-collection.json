@@ -8,9 +8,28 @@
 	"item": [
 		{
 			"name": "GET usuarios",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "{{url}}",
+					"host": [
+						"{{url}}"
+					]
+				}
 			},
 			"response": []
 		},
@@ -34,7 +53,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"nome\": \"Teste da Silva\",\r\n  \"email\": \"teste01@qa.com.br\",\r\n  \"password\": \"teste\",\r\n  \"administrador\": \"true\"\r\n}",
+					"raw": "{\r\n  \"nome\": \"Teste da Silva\",\r\n  \"email\": \"teste011@qa.com.br\",\r\n  \"password\": \"teste\",\r\n  \"administrador\": \"true\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -42,14 +61,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://serverest.dev/usuarios",
-					"protocol": "https",
+					"raw": "{{url}}",
 					"host": [
-						"serverest",
-						"dev"
-					],
-					"path": [
-						"usuarios"
+						"{{url}}"
 					]
 				}
 			},
@@ -57,19 +71,29 @@
 		},
 		{
 			"name": "DEL usuarios",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://serverest.dev/usuarios/1BjtPh5wTnuFD1MO",
-					"protocol": "https",
+					"raw": "{{url}}/5ESub6fl17wvN0Im",
 					"host": [
-						"serverest",
-						"dev"
+						"{{url}}"
 					],
 					"path": [
-						"usuarios",
-						"1BjtPh5wTnuFD1MO"
+						"5ESub6fl17wvN0Im"
 					]
 				}
 			},
@@ -95,7 +119,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"nome\": \"Teste da Silva\",\r\n  \"email\": \"teste0111@qa.com.br\",\r\n  \"password\": \"teste\",\r\n  \"administrador\": \"true\"\r\n}",
+					"raw": "{\r\n  \"nome\": \"Teste da Silva\",\r\n  \"email\": \"teste01112@qa.com.br\",\r\n  \"password\": \"teste\",\r\n  \"administrador\": \"true\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -103,14 +127,11 @@
 					}
 				},
 				"url": {
-					"raw": "https://serverest.dev/usuarios/6ylM8YOWWtJleuAH",
-					"protocol": "https",
+					"raw": "{{url}}/6ylM8YOWWtJleuAH",
 					"host": [
-						"serverest",
-						"dev"
+						"{{url}}"
 					],
 					"path": [
-						"usuarios",
 						"6ylM8YOWWtJleuAH"
 					]
 				}
