@@ -30,7 +30,7 @@ $ git clone https://github.com/NavesEdu/Teste-Postman-Desafio
 2. Selecione o menu *File -> Import*
 3. Selecione a aba *File*
 4. Clique no botão *Upload Files*
-5. Navegue até o diretório onde você salvou o arquivo e selecione o arquivo `usuarios-Serverest-collection.json`
+5. Navegue até o diretório onde você salvou o arquivo e selecione os arquivos `usuarios-Serverest-collection.json` e o arquivo `usuarios.postman_env`
 6. Clique no botão *Import*
 
 ### Fazendo os testes
