@@ -43,22 +43,22 @@ $ git clone https://github.com/NavesEdu/Teste-Postman-Desafio
 
 * Teste da requisição GET, que retorna todos usuários já cadastrados:
 <p aligng="center">
-  <img src="to_ReadME/postman2.png">
+  <img src="to_ReadME/postman1.png">
 </p>
 
 * Teste da requisição POST, que cadastra um usuário:
 <p aligng="center">
-  <img src="to_ReadME/postman4.png">
+  <img src="to_ReadME/postman2.png">
 </p>
 
 * Teste da requisição DEL, que deleta um usuário, no caso do exemplo, nenhum registro foi deletado pois foi usado um ID qualquer:
 <p aligng="center">
-  <img src="to_ReadME/postman6.png">
+  <img src="to_ReadME/postman3.png">
 </p>
 
 * Teste da requisição PUT, que atualiza o registro de um usuário, no caso do exemplo, foi usado o ID do usuário que foi cadastrado no exemplo da requisição POST:
 <p aligng="center">
-  <img src="to_ReadME/postman8.png">
+  <img src="to_ReadME/postman4.png">
 </p>
 
 ### Observação
