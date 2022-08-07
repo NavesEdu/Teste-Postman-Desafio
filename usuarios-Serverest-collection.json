@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "39c1b4fe-6e7a-4db9-be03-2294c3e0d585",
+		"_postman_id": "399b79f6-de3b-40c7-9063-0603f0aa0d2c",
 		"name": "CRUD usuarios - Serverest",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "22651019"
+		"_exporter_id": "22623566"
 	},
 	"item": [
 		{
@@ -106,8 +106,9 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"pm.test(\"Este email já está sendo usado\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
 							"});"
 						],
 						"type": "text/javascript"
@@ -119,7 +120,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"nome\": \"Teste da Silva\",\r\n  \"email\": \"teste01112@qa.com.br\",\r\n  \"password\": \"teste\",\r\n  \"administrador\": \"true\"\r\n}",
+					"raw": "{\r\n  \"nome\": \"Fulano da Silva\",\r\n  \"email\": \"beltrano@qa.com.br\",\r\n  \"password\": \"teste\",\r\n  \"administrador\": \"true\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -127,12 +128,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/6ylM8YOWWtJleuAH",
+					"raw": "{{url}}/0uxuPY0cbmQhpEz1",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
-						"6ylM8YOWWtJleuAH"
+						"0uxuPY0cbmQhpEz1"
 					]
 				}
 			},
