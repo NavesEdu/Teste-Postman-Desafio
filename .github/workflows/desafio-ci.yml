@@ -29,6 +29,7 @@ jobs:
       - name: Step 1 Check version Newman and Node
         run: |
           pwd
+          which bash
           npm install -g newman
           newman --version
           node --version
