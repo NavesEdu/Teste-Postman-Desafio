@@ -23,8 +23,8 @@ Para clonar o repositório em algum lugar na sua máquina, basta utilizar o coma
 ```bash
 $ git clone https://github.com/NavesEdu/Teste-Postman-Desafio
 ```
-
-### Iniciando a aplicação
+### Primeiro modo:
+## Iniciando a aplicação
 
 1. Abra o Postman
 2. Selecione o menu *File -> Import*
@@ -33,7 +33,7 @@ $ git clone https://github.com/NavesEdu/Teste-Postman-Desafio
 5. Navegue até o diretório onde você salvou o arquivo e selecione os arquivos `usuarios-Serverest-collection.json` e o arquivo `usuarios.postman_env`
 6. Clique no botão *Import*
 
-### Fazendo os testes
+## Fazendo os testes
 
 * Environment criado dentro do Postman com a URL da API:
 </p>
@@ -61,6 +61,6 @@ $ git clone https://github.com/NavesEdu/Teste-Postman-Desafio
   <img src="to_ReadME/postman4.png">
 </p>
 
-### Observação
-
-Tentei fazer um CI mas não funcionou, utilizei o GitHub actions, nunca tive contato com o código pois até agora só vi o conceito na graduação. 
+### Segundo modo:
+Vendo os testes através de um CI criado com o GitHub Actions, utilizando o newman:
+* 
