@@ -2,7 +2,8 @@
 
 - [Sobre](#-sobre)
 - [Como executar](#-como-executar)
-
+- [Teste Postman](#-teste-postman)
+- [CI](#-ci)
 
 ## 💻 Sobre
 
@@ -23,7 +24,8 @@ Para clonar o repositório em algum lugar na sua máquina, basta utilizar o coma
 ```bash
 $ git clone https://github.com/NavesEdu/Teste-Postman-Desafio
 ```
-### Primeiro modo:
+## Teste Postman:
+
 ## Iniciando a aplicação
 
 1. Abra o Postman
@@ -61,6 +63,40 @@ $ git clone https://github.com/NavesEdu/Teste-Postman-Desafio
   <img src="to_ReadME/postman4.png">
 </p>
 
-### Segundo modo:
+## CI:
 Vendo os testes através de um CI criado com o GitHub Actions, utilizando o newman:
-* 
+
+* Clique na verficação 
+<p aligng="center">
+  <img src="to_ReadME/CI1.png">
+</p>
+
+* Clique em details
+<p aligng="center">
+  <img src="to_ReadME/CI2.png">
+</p>
+
+* Clique em summary
+<p aligng="center">
+  <img src="to_ReadME/CI3.png">
+</p>
+
+* Clique em `report`
+<p aligng="center">
+  <img src="to_ReadME/CI4.png">
+</p>
+
+* Salve o arquivo em algum diretório da sua máquina
+<p aligng="center">
+  <img src="to_ReadME/CI5.png">
+</p>
+
+* Abra o arquivo `Report.html`
+<p aligng="center">
+  <img src="to_ReadME/CI6.png">
+</p>
+
+* Em seguida será exibido o report de todos os testes
+<p aligng="center">
+  <img src="to_ReadME/CI7.png">
+</p>
