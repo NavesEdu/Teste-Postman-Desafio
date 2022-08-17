@@ -1,5 +1,3 @@
-[![desafio-ci](https://github.com/NavesEdu/Teste-Postman-Desafio/blob/main/.github/workflows/desafio-ci.yml/badge.svg)](https://github.com/NavesEdu/Teste-Postman-Desafio/blob/main/.github/workflows/desafio-ci.yml)
-
 # Postman Desafio
 
 - [Sobre](#-sobre)
